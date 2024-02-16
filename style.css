@@ -1,0 +1,66 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    background-color: #f44336;
+    padding: 20px;
+  }
+  
+  #taskInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #addBtn {
+    width: 15%;
+    padding: 10px;
+    background-color: #d9d9d9;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #taskList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #taskList li {
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  #taskList li.checked {
+    background-color: #888;
+    color: white;
+    text-decoration: line-through;
+  }
+  
+  
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+  }
